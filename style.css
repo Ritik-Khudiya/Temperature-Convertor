@@ -1,0 +1,98 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(254, 190, 144);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   
+
+}
+.body1{
+    width: 50%;
+    height: 50%;
+    background-color: aqua;
+    border-radius: 10px;
+    
+}
+#tempCal{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap:7px;
+}
+.submit{
+    cursor:pointer;
+    width: 60px;
+    height: 23px;
+    font-size: 80%;
+}
+.submit:hover,.clear:hover{
+    background-color: rgb(84, 84, 182);
+    color: white;
+}
+.clear{
+    cursor: pointer;
+    width: 50px;
+    height: 23px;
+    font-size: 80%;
+   
+}
+#temp_diff1{
+    width: 79px;
+    height: 29px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#temp_diff2{
+    width: 79px;
+    height: 29px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#temp{
+    height: 24px;
+    padding-left: 4px;
+    border-radius: 5px;
+}
+.heading{
+    font-size: 20px;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+@media  only screen and (max-width:700px)
+{
+    .body1{
+        width: 80%;
+    height: 63%;
+    background-color: aqua;
+    transition: width 0.3s ease-out;
+    }
+    #result{
+        font-size: 25px;
+        text-align: center;
+    }
+}
+@media  only screen and (max-height:300px)
+{
+    .body1{
+                width: 80%;
+            height: 63%;
+            background-color: aqua;
+            transition: width 0.3s ease-out;
+            
+        }
+    
+  
+}
